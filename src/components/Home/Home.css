@@ -1,0 +1,112 @@
+.second-nav {
+  height: 53px;
+  flex: 1;
+  display: flex;
+}
+.logo {
+  padding-left: 243px;
+  padding-top: 32px;
+}
+.items ul {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.items li {
+  color: #124c64;
+  list-style-type: none;
+  padding-right: 34px;
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+li .items :hover {
+  cursor: pointer;
+}
+.account {
+  flex: 1;
+  display: flex;
+  vertical-align: top;
+}
+.account-text {
+  display: flex;
+  flex-direction: "column";
+}
+.cover {
+  height: auto;
+  overflow: auto;
+}
+.Cards {
+  display: flex;
+  flex-direction: "row";
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.left-card {
+  margin-top: 100px;
+  width: 542px;
+  height: 227;
+  background-color: #124c64;
+  margin-left: 243px;
+}
+.left-card h2,
+p {
+  color: white;
+}
+.left-card h2 {
+  padding-top: 25px;
+  padding-left: 13px;
+}
+.left-card p {
+  padding-bottom: 85px;
+  padding-left: 13px;
+}
+
+.right-card {
+  margin-top: 100px;
+  width: 547px;
+  height: 287;
+  margin-left: 30px;
+  padding-right:243px
+}
+.right-card p {
+  color: black;
+  padding-bottom: 85px;
+  padding-left: 13px;
+}
+
+/**/
+
+/**/
+@media screen and (max-width: 1097px) {
+  .logo {
+    padding-left: 5px;
+  }
+
+  .items li {
+    font-size: 9px;
+    padding-right: 4px;
+  }
+
+  .test-p {
+    font-size: 5;
+  }
+  .account-text span {
+    font-size: 2;
+  }
+  .right-card p {
+    padding-bottom: 15px;
+    padding-left: 13px;
+   
+  }
+  .right-card{
+      padding-right: 0;
+  }
+  .left-card {
+    margin-top: 1px;
+    margin-left: 5px;
+  }
+}
