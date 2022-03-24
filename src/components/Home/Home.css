@@ -38,6 +38,12 @@ li .items :hover {
   height: auto;
   overflow: auto;
 }
+.cover-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%
+}
 .Cards {
   display: flex;
   flex-direction: "row";

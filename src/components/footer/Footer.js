@@ -36,18 +36,23 @@ export default function Footer() {
               <img
                 style={{ padding: 11 }}
                 src={require("./assets/brand.png")}
+                alt="image"
               />
             </div>
             <div style={{ backgroundColor: "#13435a", marginRight: 7 }}>
               <img
                 style={{ padding: 11 }}
                 src={require("./assets/brand vimeo-v.png")}
+                alt="image"
+
               />
             </div>
             <div style={{ backgroundColor: "#13435a", marginRight: 7 }}>
               <img
                 style={{ padding: 11, paddingLeft: 15, paddingRight: 15 }}
                 src={require("./assets/face.png")}
+                                alt="image"
+
               />
             </div>
             <div style={{ backgroundColor: "#ed1b23", marginRight: 7 }}>
@@ -67,11 +72,11 @@ export default function Footer() {
         <div className="right-section-footer">
           <ul>
             <p className="right-footer-text">Main menu</p>
-            <li>>> Home</li>
-            <li>>> About us</li>
-            <li>>> services</li>
-            <li>>> Management Board</li>
-            <li>>>Contact </li>
+            <li> Home</li>
+            <li> About us</li>
+            <li> services</li>
+            <li> Management Board</li>
+            <li> Contact </li>
           </ul>
         </div>
       </div>

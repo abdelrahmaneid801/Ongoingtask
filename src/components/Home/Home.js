@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 export default function () {
   return (
@@ -53,11 +53,11 @@ export default function () {
       </div>
       <div className="cover">
         <img
+            className="cover-img"
           style={{
             paddingTop: 32,
             float: "right",
-            width: "auto",
-            height: "auto",
+           
           }}
           src={require("./assets/workers-conside.png")}
           alt="logo"
